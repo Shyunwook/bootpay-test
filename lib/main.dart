@@ -1,0 +1,21 @@
+import 'package:bootpay_test/payment.screen.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const PaymentScreen());
+}
+
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: Text('Hello World!'),
+        ),
+      ),
+    );
+  }
+}
